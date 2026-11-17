@@ -13,11 +13,6 @@ class Cue:
     text: str
 
 
-def Cue:
-    """class"""
-    raise NotImplementedError("Cue 尚未实现")
-
-
 def load_srt(path):
     """读 SRT"""
     raise NotImplementedError("load_srt 尚未实现")
@@ -36,9 +31,4 @@ def estimate_drift(anchors):
 def apply_drift(cues, model):
     """按模型校正"""
     raise NotImplementedError("apply_drift 尚未实现")
-
-
-def load_anchors(path):
-    """读入与落盘辅助"""
-    raise NotImplementedError("load_anchors 尚未实现")
 
