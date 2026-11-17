@@ -1,1 +1,1 @@
-"""字幕 PTS 漂移校正"""
+from .core import *  # noqa: F401,F403
