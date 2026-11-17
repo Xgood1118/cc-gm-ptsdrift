@@ -32,3 +32,8 @@ def apply_drift(cues, model):
     """按模型校正"""
     raise NotImplementedError("apply_drift 尚未实现")
 
+
+def load_anchors(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("load_anchors 尚未实现")
+
